@@ -1,0 +1,64 @@
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.skeleton-loader {
+  margin-top: 0;
+  margin-bottom: 0;
+  animation: pulse 1.5s ease-in-out 0.5s infinite;
+  background-color: rgba(0, 0, 0, 0.37);
+  border-radius: 10px;
+}
+
+.skeleton-loader:empty:before {
+  content: "";
+}
+
+.avatar-skeleton {
+  width: 100px;
+  height: 100px;
+}
+
+.name-skeleton {
+  width: 160px;
+  height: 15px;
+  margin-bottom: 10px;
+}
+
+.status-skeleton {
+  width: 120px;
+  height: 15px;
+}
+
+.child-card-skeleton {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+}
+
+.child-info-wrapper-skeleton {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.child-info-skeleton {
+  margin-left: 20px;
+}
+
+.child-action-skeleton {
+  width: 90px;
+  height: 40px;
+}
