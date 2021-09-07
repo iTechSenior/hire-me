@@ -1,0 +1,67 @@
+.child-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px 0;
+  padding: 20px;
+  background-color: white;
+  border-radius: 12px;
+}
+
+.child-info-wrapper {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.child-info {
+  text-align: left;
+}
+
+.child-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: gray;
+  margin-bottom: 5px;
+}
+
+.child-status {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.child-checkin {
+  color: #42c2a3;
+}
+
+.child-checkout {
+  color: #f5543d;
+}
+
+.error-msg {
+  font-size: 14px;
+  font-weight: bold;
+  color: red;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 400px) {
+  .child-info-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .child-name {
+    font-size: 16px;
+  }
+
+  .child-status {
+    font-size: 14px;
+  }
+
+  .child-info {
+    margin-bottom: 5px;
+  }
+}
