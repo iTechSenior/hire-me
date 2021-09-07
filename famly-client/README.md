@@ -2,7 +2,7 @@
 
 ## Public URL
 
-https://clipboard-full-stack-test.vercel.app/
+https://famly-client.surge.sh/
 
 ## Installation Instructions
 
