@@ -1,0 +1,27 @@
+.button {
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  height: 40px;
+  width: 90px;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.button:active {
+  opacity: 0.5;
+}
+
+.btn-checkin {
+  background-color: #42c2a3;
+}
+
+.btn-checkout {
+  background-color: #f5543d;
+}
