@@ -62,10 +62,10 @@ const ChildrenList = () => {
             <span className="page-header-value">{total}</span>
           </div>
         </div>
-        <div className="page-size-selector">
+        <div className="page-size-select-view">
           <span className="page-header-label">Page Size: </span>
           <Select
-            className="page-size-select"
+            className="page-size-selector"
             defaultValue={{ value: 10, label: "10" }}
             onChange={handlePageSize}
             options={PAGE_SIZE_OPTIONS}

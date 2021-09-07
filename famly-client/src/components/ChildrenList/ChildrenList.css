@@ -19,7 +19,7 @@
   margin-bottom: 5px;
 }
 
-.page-size-selector {
+.page-size-select-view {
   display: flex;
   align-items: center;
 }
@@ -37,6 +37,17 @@
   color: #666567;
 }
 
-.page-size-select {
+.page-size-selector {
   width: 100px;
+}
+
+@media screen and (max-width: 600px) {
+  .page-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .page-size-select-view {
+    margin-top: 20px;
+  }
 }
