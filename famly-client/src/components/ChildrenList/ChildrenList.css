@@ -1,0 +1,42 @@
+.list-container {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.list-content {
+  text-align: center;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.total-count-view {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.page-size-selector {
+  display: flex;
+  align-items: center;
+}
+
+.page-header-label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #666567;
+  margin-right: 10px;
+}
+
+.page-header-value {
+  font-size: 16px;
+  font-weight: bold;
+  color: #666567;
+}
+
+.page-size-select {
+  width: 100px;
+}
