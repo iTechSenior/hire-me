@@ -41,6 +41,7 @@
 .child-card-skeleton {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   margin: 20px 0;
   padding: 20px;
   background: white;
@@ -61,4 +62,25 @@
 .child-action-skeleton {
   width: 90px;
   height: 40px;
+}
+
+.info-skeleton-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .child-card-skeleton {
+    justify-content: space-between;
+  }
+
+  .info-skeleton-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .child-info-skeleton {
+    margin-left: 0;
+    margin-top: 20px;
+  }
 }
