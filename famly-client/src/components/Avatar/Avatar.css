@@ -1,0 +1,8 @@
+.child-avatar-wrapper {
+  width: 100px;
+  height: 100px;
+}
+
+.child-avatar {
+  border-radius: 10px;
+}
