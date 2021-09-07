@@ -1,8 +1,7 @@
 import { useState } from "react";
 import TimeField from "react-simple-timefield";
-import Button from "../Button/Button";
-import Avatar from "../Avatar/Avatar";
-import { checkInChildApi, checkOutChildApi } from "../../service/api";
+import { Avatar, Button } from "..";
+import { checkInChildApi, checkOutChildApi } from "../../../service/api";
 import "./ChildListItem.css";
 
 const ChildListItem = ({ childData }) => {
